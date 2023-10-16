@@ -9,6 +9,7 @@ services:
       args:
         ENV_VARIABLE: ${ENV_VARIABLE}
         NEXT_PUBLIC_ENV_VARIABLE: ${NEXT_PUBLIC_ENV_VARIABLE}
+    image: ambaji/next-app:latest
     restart: always
     ports:
       - 3000:80
